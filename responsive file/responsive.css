@@ -1,5 +1,5 @@
 /* x-small devices */
-@media (max-width: 576px) {
+@media (min-width: 200px) and (max-width: 768px) {
     .container {
         width: 90%;
         padding: 0;
@@ -47,8 +47,22 @@
 
     .blog-btn {
         background: none;
+        display: block;
         margin: 0px auto;
 
+    }
+
+    .blog-btn {
+        display: block;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    .btn {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     button#responsive-btn {

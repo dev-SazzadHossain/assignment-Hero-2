@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (min-width:768px) and (max-width:992px) {
     .container {
         width: 90%;
     }
@@ -14,7 +14,7 @@
     }
 
     .blog-btn {
-        margin-right: 40px;
+        margin-right: 0px;
         padding: 20px;
         display: flex;
         justify-content: center;
