@@ -1,1 +1,73 @@
-@media (min-width: 768px) {}
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .left-header p {
+        width: auto;
+    }
+
+    .left-blog {
+        width: 100%;
+        background: black;
+        border-radius: 10px;
+    }
+
+    .blog-btn {
+        margin-right: 40px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .btn {
+        text-align: center;
+    }
+
+    .spcial-btn {
+        margin: 0px 35px;
+    }
+
+    .blog-wrapper {
+        display: block;
+        margin: 100px 0px;
+    }
+
+    .right-blog {
+        width: 100%;
+    }
+
+    footer {
+        height: 80vh;
+    }
+
+    ul.footer-lists {
+        display: block;
+        width: 50%;
+        text-align: center;
+    }
+
+    .footer-lists li {
+        padding: 5px 0px;
+    }
+
+    button#view-btn {
+        padding: 10px 40px;
+        display: inline-block;
+        margin-bottom: 50px;
+        background: red;
+        text-transform: capitalize;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+    .tablet-btn {
+        text-align: center;
+    }
+}
